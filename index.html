@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LS MOTOS</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="icon" type="image/png" sizes="16x16"  href="/img/favicon-16x16.png">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">
+                 LS <br />
+                <span id="espaco">Moto.</span>
+            </a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Sobre</a>
+                <a href="#services">Orçamento</a>
+                <a href="#contact">Contato</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>SOMOS,<span> LS MOTOS</span></h1>
+
+                <h3 class="text-animation">
+                    Entregamos: <span style="margin-left: 5px"> </span>
+                </h3>
+
+                <p>A LS Moto oferece soluções ágeis de entrega e frete desde 2019. Entregamos <span> rapidez, segurança e qualidade</span> para empresas e particulares, com contratos personalizados e transporte de pacotes e documentos.</p>
+            
+                <div class="social-icons">
+                    <a href="https://wa.me/11p48762100" target="_blank"
+                        ><i class="bx bxl-whatsapp"></i
+                    ></a>
+                    <a href="mailto:leonardodonatodelemos@gmail.com"
+                        ><i class="bx bx-envelope"></i
+                    ></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="./img/Documento A4 Círculos Minimalista Branco-2.png" alt="" />
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Orçamentário Rápido</h2>
+            <div class="form-container">
+                <form id="orcamentoForm" action="#" method="post">
+                    <div class="form-group">
+                        <label for="km">Qual é a quilometragem<sup>KM</sup> total de sua viagem:</label>
+                        <input type="number" id="km" name="km" placeholder="KM" required />
+                    </div>
+
+                    <div class="form-group-pedagio">
+                        <label for="pedagio">Tem pedágio:</label>
+                        <select id="pedagio" name="pedagio">
+                            <option value="nao">Não</option>
+                            <option value="sim">Sim</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group calcular">
+                        <button type="button" id="calcular" onclick="calcularOrcamento()" >Calcular</button>
+                        </button>
+                    </div>
+
+                    <div class="form-group result">
+                        <p id="resultadoOrcamento"></p>
+                        <button type="button" id="enviarOrcamento" style="display: none;">
+                            Enviar Orçamento
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contratar<span>-me</span></h2>
+            <div class="contact-info">
+                <p>
+                    Estou disponível para negociações. Se você estiver
+                    interessado em me contratar, por favor, entre em contato
+                    comigo via WhatsApp ou E-mail.
+                </p>
+                <a
+                    href="https://wa.me/11948762100"
+                    target="_blank"
+                    id="secondBottom"
+                    class="btn"
+                    >Entre em contato via WhatsApp</a
+                >
+                <a href="/page/form.html" class="btn" target="_blank"
+                    >Envie uma mensagem via E-mail</a
+                >
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="https://wa.me/11948762100" target="_blank"
+                ><i class="bx bxl-whatsapp"></i
+            ></a>
+            <a href="mailto:leonardodonatodelemos@gmail.com"
+                ><i class="bx bx-envelope"></i
+            ></a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#home">Sobre</a>
+                </li>
+                <li>
+                    <a href="#service">Orçamento</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+            <p class="copyrith">@Ls Motos</p>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
