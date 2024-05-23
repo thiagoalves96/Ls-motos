@@ -59,7 +59,7 @@ document
         const total = totalKm + valorPedagio;
 
         // Substitua <YOUR_PHONE_NUMBER> pelo seu número de telefone completo
-        const phoneNumber = "+11992459507";
+        const phoneNumber = "+11948762100";
         const textMessage = `Orçamento: KM: ${km}, Pedágio: ${valorPedagio}, Total: R$ ${total.toFixed(
             2
         )}`;
