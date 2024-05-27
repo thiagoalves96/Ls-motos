@@ -204,6 +204,7 @@ span {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 .home-img img {
+    background-color: white;
     position: relative;
     top: 3rem;
     width: 32vw;
