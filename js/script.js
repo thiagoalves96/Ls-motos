@@ -21,6 +21,11 @@ window.onscroll = () => {
     });
 };
 
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle("bx-x");
+    navbar.classList.toggle("active");
+};
+
 function calcularOrcamento() {
     const km = parseFloat(document.getElementById("km").value);
     let valorPedagio = 0;

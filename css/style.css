@@ -191,6 +191,13 @@ span {
     margin-top: 1.5rem;
     line-height: 1;
 }
+.formaPagamento img {
+    width: 50%;
+    height: auto;
+}
+#fontP {
+    font-size: 1.7rem;
+}
 .home-img {
     border-radius: 50%;
     position: relative;
@@ -674,6 +681,7 @@ span {
     }
     .home-content p {
         max-width: 600px;
+        font-size: 2rem;
         margin: 0 auto;
     }
     .home-img img {
@@ -700,6 +708,11 @@ span {
     #secondBottom {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+}
+@media (max-width: 797px) {
+    .heading {
+        font-size: 6rem;
     }
 }
 @media (max-width: 425px) {
