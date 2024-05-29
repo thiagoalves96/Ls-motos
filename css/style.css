@@ -12,7 +12,7 @@
     --bg-color: #0b025b;
     --second-bg-color: #131313;
     --text-color: #ffffff;
-    --main-color: #a400e4e3;
+    --main-color: #7b7b7b;
 }
 html {
     font-size: 60%;
@@ -24,12 +24,12 @@ body {
 }
 
 .form-container {
-    background-color: white; /* Fundo branco para contraste */
+    background-color: #fffffff4; /* Fundo branco para contraste */
     padding: 20px;
     border-radius: 8px; /* Bordas arredondadas para um visual mais suave */
     margin: 20px auto; /* Centraliza o contêiner horizontalmente e adiciona margem superior/inferior */
     max-width: 400px; /* Limita a largura máxima do contêiner */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+    box-shadow: 0 0 50px var(--main-color); /* Sombra suave para dar profundidade */
 }
 
 .form-group {
@@ -88,7 +88,7 @@ body {
     margin-top: 20px;
     font-size: 1.2em;
     font-weight: bold;
-    color: var(--second-bg-color); /* Ou qualquer outra cor que desejar */
+    color: var(--second-bg-color);
 }
 #km,
 #pedagio {
