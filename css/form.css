@@ -1,8 +1,8 @@
 :root {
-    --bg-color: #080808; /* Cor de fundo */
-    --second-bg-color: #131313; /* Segunda cor de fundo */
-    --text-color: white; /* Cor do texto */
-    --main-color: #00ffee; /* Cor principal */
+    --bg-color: #0b025b;
+    --second-bg-color: #131313;
+    --text-color: #ffffff;
+    --main-color: #7b7b7b;
 }
 
 body {
