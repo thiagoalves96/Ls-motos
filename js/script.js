@@ -65,9 +65,9 @@ document
 
         // Substitua <YOUR_PHONE_NUMBER> pelo seu número de telefone completo
         const phoneNumber = "+11948762100";
-        const textMessage = `Orçamento: KM: ${km}, Pedágio: ${valorPedagio}, Total: R$ ${total.toFixed(
+        const textMessage = `Fiz um orçamento no seu site: KM: ${km}, Pedágio: ${valorPedagio}, Total: R$ ${total.toFixed(
             2
-        )}`;
+        )}, vamos negociar?`;
 
         // Constrói a URL com o número de telefone e a mensagem codificada
         const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
